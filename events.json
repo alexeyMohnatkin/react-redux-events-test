@@ -1,0 +1,69 @@
+[
+	{
+		"id": 1,
+		"name": "event1",
+		"city": {
+			"id": 1,
+			"name": "New York"
+		},
+		"dateStart": "Tue Sep 06 2016 19:00:00 GMT+0300 (Kaliningrad Standard Time)",
+		"dateEnd": "Tue Sep 06 2016 21:00:00 GMT+0300 (Kaliningrad Standard Time)",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis excepturi nostrum delectus reiciendis, dolorem maxime adipisci sit ipsum fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis excepturi nostrum delectus reiciendis, dolorem maxime adipisci sit ipsum fuga.",
+		"tags": [
+			{
+				"id": 1,
+				"title": "tag1"
+			},
+			{
+				"id": 2,
+				"title": "tag2"
+			},
+			{
+				"id": 3,
+				"title": "tag3"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "event2",
+		"city": {
+			"id": 4,
+			"name": "London"
+		},
+		"dateStart": "Tue Sep 12 2016 19:00:00 GMT+0300 (Kaliningrad Standard Time)",
+		"dateEnd": "Tue Sep 12 2016 21:00:00 GMT+0300 (Kaliningrad Standard Time)",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis excepturi nostrum delectus reiciendis, dolorem maxime adipisci sit ipsum fuga.",
+		"tags": [
+			{
+				"id": 1,
+				"title": "tag1"
+			},
+			{
+				"id": 4,
+				"title": "tag4"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "event3",
+		"city": {
+			"id": 7,
+			"name": "Moscow"
+		},
+		"dateStart": "Tue Sep 12 2016 20:00:00 GMT+0300 (Kaliningrad Standard Time)",
+		"dateEnd": "Tue Sep 12 2016 21:00:00 GMT+0300 (Kaliningrad Standard Time)",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis excepturi nostrum delectus reiciendis, dolorem maxime adipisci sit ipsum fuga.",
+		"tags": [
+			{
+				"id": 2,
+				"title": "tag2"
+			},
+			{
+				"id": 4,
+				"title": "tag4"
+			}
+		]
+	}
+]

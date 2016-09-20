@@ -1,0 +1,18 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": "airbnb",
+    "rules": {
+        "indent": [2, "tab", { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
+        "react/jsx-indent": [2, "tab"],
+        "react/jsx-indent-props": [2, "tab"],
+				"react/jsx-no-bind": 0,
+				'react/no-unused-prop-types': [2, {skipShapeProps: true}],
+        "no-tabs": [0],
+        "arrow-body-style": ["error", "always"],
+        'import/no-named-as-default': 0,
+    }
+}

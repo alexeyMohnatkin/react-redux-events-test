@@ -1,0 +1,27 @@
+.container {
+	padding: 20px;
+}
+
+.filter {
+	margin: 0 20px;
+}
+.events {
+	&__item {
+		margin-bottom: 20px;
+	}
+}
+.event-card {
+	height: 100%;
+	// hardcode
+	&>div {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	&__text {
+		flex: 1 0 auto;
+	}
+}
+
